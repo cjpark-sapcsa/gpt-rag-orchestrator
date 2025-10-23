@@ -2,6 +2,9 @@
 fastapi==0.115.12
 requests==2.32.4
 
+# — ASGI server
+uvicorn==0.34.1
+
 # — Data handling & reporting
 pandas
 
