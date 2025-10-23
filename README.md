@@ -18,6 +18,8 @@ description: GPT-RAG core is a Retrieval-Augmented Generation pattern running in
 
 # GPT-RAG Orchestrator
 
+> **Update:** This is a test change to trigger the workflow.
+
 > **Note:** This line was added as a test change for the feature/your_feature branch.
 
 Part of the [GPT-RAG](https://github.com/Azure/gpt-rag) solution.
