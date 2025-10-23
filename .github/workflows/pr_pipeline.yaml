@@ -35,6 +35,15 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -r evaluations/requirements.txt
+
       - name: Run evaluation
         run: |
           chmod +x evaluations/evaluate.sh
